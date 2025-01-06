@@ -19,10 +19,12 @@ const Contact = () => {
         <div>
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>
-            <a href={`/src/documents/contact-us.pdf`}>Contact.</a>
+            <a href={`/assets/contact-us.pdf`}>Contact.</a>
           </h3>
           <p className={styles.sectionSubText}>
-            <a className="text-[12px]" href={`/src/documents/terms-and-conditions.pdf`}>
+            <a
+              className="text-[12px]"
+              href={`/assets/terms-and-conditions.pdf`}>
               Terms and considtions
             </a>
           </p>
