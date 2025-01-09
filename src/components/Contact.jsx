@@ -19,12 +19,17 @@ const Contact = () => {
         <div>
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>
-            <a href={`/src/documents/contact-us.pdf`}>Contact.</a>
+            <a
+              href={`https://drive.google.com/file/d/1DJ5mdEMxheqcqLM4i6UYdczoeN7ehnyF/view?usp=sharing`}
+              target="_blank">
+              Contact.
+            </a>
           </h3>
           <p className={styles.sectionSubText}>
             <a
               className="text-[12px]"
-              href={`/src/documents/terms-and-conditions.pdf`}>
+              href={`https://drive.google.com/file/d/1aP5Q8PeqwrPJiE2Y0ZZ_qAnBbW7seeer/view?usp=drive_link`}
+              target="_blank">
               Terms and considtions
             </a>
           </p>
@@ -33,7 +38,7 @@ const Contact = () => {
           {contackLinks.map((link, i) => (
             <a key={i} href={link.url} className={link.styles}>
               <i
-              className={`ri-${link.icon}-line text-[22px] xs:text-[25px] sm:text-[28px] lg:text-[32px]`}></i>
+                className={`ri-${link.icon}-line text-[22px] xs:text-[25px] sm:text-[28px] lg:text-[32px]`}></i>
               <span>{link.linkName}</span>
             </a>
           ))}
